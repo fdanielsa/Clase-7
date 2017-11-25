@@ -1,5 +1,30 @@
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html { 
+	min-height: 100%;
+}
 body {
 	background-color: #00aaee;
-	background-image: url("../img/congruent_pentagon.png");
+	background-image: url("../img/beto.png");
+	background-repeat: no-repeat; /* repeat | repeat-x | repeat-y | */
+	background-position: left bottom; /*center | x y | */
+
 	
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    background-image: url(../img/bg-header.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+
+
 }
